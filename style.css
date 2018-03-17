@@ -1,6 +1,12 @@
 .container {
     display: flex;
     height: 100vh;
+    flex-wrap: wrap;
+    /*
+        possible values: wrap, wrap-reverse
+        this property is applied on parent (flex container) not on children (flex item) to be arrange
+        This propety will honour the space required for each flex item and wraps rest of the the flex itesm based on the space available.
+    */
 }
 
 .box {
