@@ -1,6 +1,14 @@
 .container {
     display: flex;
     height: 100vh;
+    flex-direction: column; 
+    /*
+        possible values: column, row (default), column-reverse, row-reverse
+        row: left to right
+        column: top to bottom
+        row-reverse: right to left
+        column-reverse: bottom to top
+    */
 }
 
 .box {
