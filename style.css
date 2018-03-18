@@ -1,47 +1,19 @@
-.flex-start {
+.container {
     display: flex;
-    justify-content: flex-start;
     border: 10px solid goldenrod;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
     /*
-        This is the the default valuse for justify-content
-        by default flex items are palced on flex-start
+        when using flex-direction as column, viewport height is important
+
+        this is one of the way to align content center vertically using flexbox
     */
-}
-
-.title {
-    display: flex;
-    font-size: 24px;
-    justify-content: center;
-    border: 5px solid mistyrose;
-}
-
-.flex-end {
-    display: flex;
-    justify-content: flex-end;
-    border: 10px solid goldenrod;
-}
-
-.center {
-    display: flex;
-    justify-content: center;
-    border: 10px solid goldenrod;
-}
-
-.space-around {
-    display: flex;
-    justify-content: space-around;
-    border: 10px solid goldenrod;
-}
-
-.space-between {
-    display: flex;
-    justify-content: space-between;
-    border: 10px solid goldenrod;
 }
 
 .box {
     color: white;
-    font-size: 100px;
+    font-size: 20px;
     text-align: center;
     text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
     padding: 10px;
